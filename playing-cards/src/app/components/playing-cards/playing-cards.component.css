@@ -65,12 +65,17 @@ figure#art {
 	flex-direction: column;
 	justify-content: center;
 	height: 100px;
+	
+	.description {
+		margin-top: 2px;
+		font-size: smaller;
+	}
 }
 
 .capacity {
 	display: flex;
 	flex-direction: column;
-	margin: 10px 0;
+	margin: 5px 0;
 
 	.main {
 		display: flex;
@@ -88,10 +93,4 @@ figure#art {
 			align-items: center;
 		}
 	}
-
-	.description {
-		margin-top: 5px;
-		font-size: smaller;
-	}
-
 }

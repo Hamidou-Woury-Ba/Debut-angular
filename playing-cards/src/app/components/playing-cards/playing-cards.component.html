@@ -2,28 +2,28 @@
     <div id="inside">
         <header>
             <div class="left">
-                <div id="name">My monster</div>
+                <div id="name">{{ name }}</div>
             </div>
             <div class="right">
-                <div id="hp">40hp</div>
+                <div id="hp">{{ hp }} hp</div>
             </div>
         </header>
         <figure id="art">
             <img src="electric.jpg" alt="" class="energy icon">
-            <figcaption>N°025 Monter</figcaption>
+            <figcaption>{{ figureCaption }}</figcaption>
         </figure>
         <div id="capacities">
             <div class="capacity">
                 <div class="main">
                     <div class="name">
-                        Geo Impact
+                        {{ attackName }}
                     </div>
-                    <div class="damage">60</div>
+                    <div class="damage">{{ attackStrength }}</div>
                 </div>
             </div>
+            <div class="description">
+                {{ attackDescription }}
+            </div>
         </div>
-    </div>
-    <div class="description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quisquam quia delectus culpa natus ab quae non, recusandae ducimus quam, ea, soluta dolore rem repellendus at et fugiat itaque omnis.
     </div>
 </div>
