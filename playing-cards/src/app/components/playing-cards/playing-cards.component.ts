@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import {MatIconModule} from '@angular/material/icon';
 
 @Component({
   selector: 'app-playing-cards',
   standalone: true,
-  imports: [PlayingCardsComponent,MatIconModule],
+  imports: [PlayingCardsComponent],
   templateUrl: './playing-cards.component.html',
   styleUrl: './playing-cards.component.css'
 })

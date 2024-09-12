@@ -6,7 +6,7 @@ import { PlayingCardsComponent } from "./components/playing-cards/playing-cards.
   standalone: true, // le composant ne contient pas de template HTML (il n'est pas affiché)
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [PlayingCardsComponent],
+  imports: [PlayingCardsComponent], // on importe le composant PlayingCardsComponent pour pouvoir l'utiliser dans le template
 })
 export class AppComponent {
 }
